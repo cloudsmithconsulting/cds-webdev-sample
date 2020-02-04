@@ -87,6 +87,7 @@ module.exports = {
     //    "react": "React",
     //    "react-dom": "ReactDOM"
     //},
+    //devtool: 'inline-source-map',
     devServer: {
         contentBase: path.join(__dirname, 'public')  // [project folder]/public
     }    
