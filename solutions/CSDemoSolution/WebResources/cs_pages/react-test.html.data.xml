@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{2bf02dbf-6af5-4164-8f38-634816037a10}</WebResourceId>
+  <Name>cs_pages/react-test.html</Name>
+  <DisplayName>Test React Page</DisplayName>
+  <Description>ReactJs is a framework for delivering modern web experiences</Description>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cs_pagesreact-testhtml2BF02DBF-6AF5-4164-8F38-634816037A10</FileName>
+</WebResource>

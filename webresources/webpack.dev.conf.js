@@ -5,7 +5,7 @@ const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
 
 const paths = {
-  distFolder: path.resolve(__dirname, 'dist_dev'),
+  distFolder: path.resolve(__dirname, '../dist/dev'),
   assetsFolder: path.resolve(__dirname, 'assets'),
 }
 

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{ccfeee6b-3fb0-43e4-9dc7-6e2fb33b617a}</WebResourceId>
+  <Name>cs_scripts/app.bundle.js</Name>
+  <DisplayName>React App Bundle</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cs_scriptsappbundlejsCCFEEE6B-3FB0-43E4-9DC7-6E2FB33B617A</FileName>
+</WebResource>

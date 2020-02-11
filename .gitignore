@@ -1,6 +1,5 @@
-/node_modules
-/dist
-/dist-dev
+/**/node_modules/**/*
+dist/**/*
 *.css.d.ts
 
 .DS_Store

@@ -5,10 +5,11 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const autoprefixer = require('autoprefixer');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 // const webpack = require('webpack');
 
 const paths = {
-  distFolder: path.resolve(__dirname, 'dist')
+  distFolder: path.resolve(__dirname, '../dist/release')
 }
 
 module.exports = {
@@ -75,7 +76,7 @@ module.exports = {
               plugins: () => [
                 require('postcss-flexbugs-fixes'),
                 autoprefixer({
-                  browsers: [
+                  overrideBrowserslist: [
                     '>1%',
                     'last 4 versions',
                     'Firefox ESR',
@@ -113,6 +114,10 @@ module.exports = {
       filename: '[name].[hash].css',
       chunkFilename: '[id].[hash].css'
     }),
+    new CopyPlugin([
+      { from: '../dist/release/js', to: '../solutions/CSDemoSolution/WebResources/cs_scripts' },
+      { from: '../dist/*.css', to: '../solutions/CSDemoSolution/WebResources/cs_styles' },
+    ])
   ],
 
   optimization: {
