@@ -115,8 +115,8 @@ module.exports = {
       chunkFilename: '[id].[hash].css'
     }),
     new CopyPlugin([
-      { from: '../dist/release/js', to: '../solutions/CSDemoSolution/WebResources/cs_scripts' },
-      { from: '../dist/*.css', to: '../solutions/CSDemoSolution/WebResources/cs_styles' },
+      { from: '../dist/release/js', to: '../../solutions/CSDemoSolution/WebResources/cs_scripts' },
+      { from: '../dist/*.css', to: '../../solutions/CSDemoSolution/WebResources/cs_styles' },
     ])
   ],
 
