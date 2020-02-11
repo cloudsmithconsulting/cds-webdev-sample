@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{85b0eaba-a206-4ee6-810d-944c6390f478}</WebResourceId>
+  <Name>new_css/app.e0a8d0d77e1c22b7be75.css</Name>
+  <DisplayName>Example CDS CSS</DisplayName>
+  <Description>Desc</Description>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/new_cssappe0a8d0d77e1c22b7be75css85B0EABA-A206-4EE6-810D-944C6390F478</FileName>
+</WebResource>

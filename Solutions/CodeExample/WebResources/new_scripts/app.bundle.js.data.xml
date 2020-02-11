@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <WebResourceId>{253d5bd4-9726-4be9-be63-b856a469b90a}</WebResourceId>
-  <Name>cs_scripts/react.bundle.js</Name>
-  <DisplayName>React core script</DisplayName>
+  <WebResourceId>{3e6a68f0-8492-4d7a-85e3-a9507f42ab4f}</WebResourceId>
+  <Name>new_scripts/app.bundle.js</Name>
+  <DisplayName>Example App Bundle CDS </DisplayName>
+  <Description>Desc</Description>
   <WebResourceType>3</WebResourceType>
   <IntroducedVersion>1.0</IntroducedVersion>
-  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
   <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
   <IsCustomizable>1</IsCustomizable>
   <CanBeDeleted>1</CanBeDeleted>
   <IsHidden>0</IsHidden>
-  <FileName>/WebResources/cs_scriptsreactbundlejs253D5BD4-9726-4BE9-BE63-B856A469B90A</FileName>
+  <FileName>/WebResources/new_scriptsappbundlejs3E6A68F0-8492-4D7A-85E3-A9507F42AB4F</FileName>
 </WebResource>
