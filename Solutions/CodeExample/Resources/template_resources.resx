@@ -121,7 +121,7 @@
     <value>1033</value>
   </metadata>
   <metadata name="Source file" xml:space="preserve">
-    <value>CSDemoSolution_temp.zip</value>
+    <value>CodeExample_temp.zip</value>
   </metadata>
   <metadata name="Source package type" xml:space="preserve">
     <value>Unmanaged</value>
@@ -132,12 +132,16 @@
         bGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==
 </value>
   </metadata>
-  <data name="15062:LocalizedName,CloudSmithcs71764" xml:space="preserve">
-    <value>CloudSmith Consulting LLC</value>
-    <comment> 'CloudSmith' : LocalizedName for Solution Publisher</comment>
+  <data name="15062:Description,DefaultPublishertestnew10000" xml:space="preserve">
+    <value>Default publisher for this organization</value>
+    <comment> 'DefaultPublishertest' : Description for Solution Publisher</comment>
   </data>
-  <data name="15062:LocalizedName,CSDemoSolution" xml:space="preserve">
-    <value>CSDemoSolution</value>
-    <comment> 'CSDemoSolution' : LocalizedName for Solution</comment>
+  <data name="15062:LocalizedName,CodeExample" xml:space="preserve">
+    <value>CodeExample</value>
+    <comment> 'CodeExample' : LocalizedName for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,DefaultPublishertestnew10000" xml:space="preserve">
+    <value>Default Publisher for test</value>
+    <comment> 'DefaultPublishertest' : LocalizedName for Solution Publisher</comment>
   </data>
 </root>
