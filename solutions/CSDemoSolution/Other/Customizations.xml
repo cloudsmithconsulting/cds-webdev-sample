@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <IsvConfig>
+    <configuration version="3.0.0000.0">
+      <Root />
+      <ServiceManagement>
+        <AppointmentBook>
+          <SmoothScrollLimit>2000</SmoothScrollLimit>
+          <TimeBlocks>
+            <TimeBlock EntityType="4214" StatusCode="1" CssClass="ganttBlockServiceActivityStatus1" />
+            <TimeBlock EntityType="4214" StatusCode="2" CssClass="ganttBlockServiceActivityStatus2" />
+            <TimeBlock EntityType="4214" StatusCode="3" CssClass="ganttBlockServiceActivityStatus3" />
+            <TimeBlock EntityType="4214" StatusCode="4" CssClass="ganttBlockServiceActivityStatus4" />
+            <TimeBlock EntityType="4214" StatusCode="6" CssClass="ganttBlockServiceActivityStatus6" />
+            <TimeBlock EntityType="4214" StatusCode="7" CssClass="ganttBlockServiceActivityStatus7" />
+            <TimeBlock EntityType="4214" StatusCode="8" CssClass="ganttBlockServiceActivityStatus8" />
+            <TimeBlock EntityType="4214" StatusCode="9" CssClass="ganttBlockServiceActivityStatus9" />
+            <TimeBlock EntityType="4214" StatusCode="10" CssClass="ganttBlockServiceActivityStatus10" />
+            <TimeBlock EntityType="4201" StatusCode="1" CssClass="ganttBlockAppointmentStatus1" />
+            <TimeBlock EntityType="4201" StatusCode="2" CssClass="ganttBlockAppointmentStatus2" />
+            <TimeBlock EntityType="4201" StatusCode="3" CssClass="ganttBlockAppointmentStatus3" />
+            <TimeBlock EntityType="4201" StatusCode="4" CssClass="ganttBlockAppointmentStatus4" />
+            <TimeBlock EntityType="4201" StatusCode="5" CssClass="ganttBlockAppointmentStatus5" />
+            <TimeBlock EntityType="4201" StatusCode="6" CssClass="ganttBlockAppointmentStatus6" />
+          </TimeBlocks>
+        </AppointmentBook>
+      </ServiceManagement>
+    </configuration>
+  </IsvConfig>
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <WebResources />
+  <CustomControls />
+  <EntityDataProviders />
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
