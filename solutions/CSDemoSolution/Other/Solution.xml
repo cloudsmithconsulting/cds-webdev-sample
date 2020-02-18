@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.12629" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.12935" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>CSDemoSolution</UniqueName>
     <LocalizedNames>
@@ -80,8 +80,10 @@
     <RootComponents>
       <RootComponent type="61" schemaName="cs_pages/react-test.html" behavior="0" />
       <RootComponent type="61" schemaName="cs_scripts/app.bundle.js" behavior="0" />
+      <RootComponent type="61" schemaName="cs_scripts/hello.js" behavior="0" />
+      <RootComponent type="61" schemaName="cs_scripts/helpers/utils.js" behavior="0" />
       <RootComponent type="61" schemaName="cs_scripts/react.bundle.js" behavior="0" />
-      <RootComponent type="61" schemaName="cs_styles/app.a4c254b1dd46f0e718e3.css" behavior="0" />
+      <RootComponent type="61" schemaName="cs_styles/app.css" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

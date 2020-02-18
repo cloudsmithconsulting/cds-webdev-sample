@@ -1,8 +1,10 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const paths = {
   distFolder: path.resolve(__dirname, '../dist/dev'),
@@ -23,7 +25,7 @@ module.exports = {
   },
 
   // Enable sourcemaps for debugging webpack's output.
-  devtool: 'cheap-module-source-map',
+  devtool: 'inline-cheap-source-map',
   // Target environment
   target: 'web',
 
@@ -65,7 +67,7 @@ module.exports = {
         test: /\.css$/,
         exclude: /node_modules/,
         use: [
-          require.resolve('style-loader'),
+          MiniCssExtractPlugin.loader,
           {
             loader: require.resolve('typings-for-css-modules-loader'),
             options: {
@@ -107,6 +109,14 @@ module.exports = {
       filename: 'index.html'
     }),
     new webpack.HotModuleReplacementPlugin(),
+    new MiniCssExtractPlugin({
+      filename: '[name].css',
+      chunkFilename: '[id].[hash].css'
+    }),
+    new CopyPlugin([
+      { from: '../dist/dev/js/**/*.js', to: '../../solutions/CSDemoSolution/WebResources/cs_scripts', flatten: true },
+      { from: '../dist/dev/*.css', to: '../../solutions/CSDemoSolution/WebResources/cs_styles', flatten:true },
+    ])
   ],
 
   devServer: {

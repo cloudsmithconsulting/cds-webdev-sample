@@ -36,6 +36,7 @@
     "@types/enzyme": "^3.1.13",
     "@types/enzyme-adapter-react-16": "^1.0.3",
     "@types/jest": "^23.3.1",
+    "@types/xrm": "^9.0.21",
     "autoprefixer": "^9.1.2",
     "awesome-typescript-loader": "^5.2.0",
     "clean-webpack-plugin": "^0.1.19",

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{bcaf2684-b883-403f-98a1-da31741f07a0}</WebResourceId>
+  <Name>cs_styles/app.css</Name>
+  <DisplayName>Application style sheet</DisplayName>
+  <Description>React generated app.css</Description>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cs_stylesappcssBCAF2684-B883-403F-98A1-DA31741F07A0</FileName>
+</WebResource>

@@ -111,12 +111,12 @@ module.exports = {
       },
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].[hash].css',
+      filename: '[name].css',
       chunkFilename: '[id].[hash].css'
     }),
     new CopyPlugin([
-      { from: '../dist/release/js', to: '../../solutions/CSDemoSolution/WebResources/cs_scripts' },
-      { from: '../dist/*.css', to: '../../solutions/CSDemoSolution/WebResources/cs_styles' },
+      { from: '../dist/release/js', to: '../../solutions/CSDemoSolution/WebResources/cs_scripts', flatten: true },
+      { from: '../dist/*.css', to: '../../solutions/CSDemoSolution/WebResources/cs_styles', flatten: true },
     ])
   ],
 
