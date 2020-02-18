@@ -1,4 +1,4 @@
-.cds/**/*
+.cds/
 
 /**/node_modules/**/*
 dist/**/*
