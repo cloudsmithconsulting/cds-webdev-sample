@@ -3,7 +3,7 @@
 [Oo]bj/
 
 /**/node_modules/**/*
-dist/**/*
+dist/
 *.css.d.ts
 
 .DS_Store
